@@ -12,7 +12,7 @@ RUN apt-get update
 RUN apt-get install -y curl
 
 # create plex user
-RUN useradd --system --uid 10000 -M --shell /usr/sbin/nologin plex
+RUN useradd --system --uid 1000 -M --shell /usr/sbin/nologin plex
 
 # make home dir
 RUN mkdir -p ${HOME}

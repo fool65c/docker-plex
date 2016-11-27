@@ -1,6 +1,6 @@
 Runs a plex media server
 
-User plex is id 10000 this is used on all docker containers to keep access simple
+User plex is id 1000 this is used on all docker containers to keep access simple
 ```
 RUN useradd --system --uid 10000 -M --shell /usr/sbin/nologin plex
 ```
