@@ -3,7 +3,7 @@ from ubuntu:16.04
 # package version
 ENV DEBIAN_FRONTEND="noninteractive"
 ENV HOME="/config"
-ENV PLEX_INSTALL="https://plex.tv/downloads/latest/1?channel=8&build=linux-ubuntu-x86_64&distro=ubuntu"
+ENV PLEX_INSTALL="https://downloads.plex.tv/plex-media-server/1.2.7.2987-1bef33a/plexmediaserver_1.2.7.2987-1bef33a_amd64.deb"
 
 # update 
 RUN apt-get update
